@@ -1,6 +1,4 @@
-# NBA-Data-Project
-Exploring how the NBA has changed over the last 10 years.
-
+# NBA Data Project
 ## Overview
 ![newplot (2)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/5f5f51a7-a1b9-40fd-bc44-befc5b7a5576)
 Before diving into any analytical studies of our database it is a great idea to get a general understanding of the correlatioon of statistical categories in the NBA.
@@ -27,3 +25,16 @@ These observation can be clearly anlazyed in the third graphic, converting the d
 
 ## Points Distribution
 ![newplot (6)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/89cdf040-87a6-4bb0-b09b-047cff6d1a2a)
+Looking at the graph above, we can observe an extermely right-skewed histogram, this indicates that over the past 10 years the NBA is still very reliant on their star players to produce large scoring outputs. This argument is even more extreme in the playoffs as we see the orange histogram overlap and extend past the blue histogram (Regular Season).
+
+We see that in the playoffs the percentage of players scoring 20+ points per game increases significantly compare to the regular season, as well we see that there are a greater percentage of players that are scoring 0-2 points per game. This indicates a tighter rotation among NBA teams in the playoffs as they rely more on key players to provide scoring for their respective teams.
+
+# How has the game changed over the past 10 years?
+## Analyzing Statistics Per 48 Minutes For A Given Team
+![PTS (1)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/1eb7d13e-1255-4815-bf7d-d142d16d7cd1)
+
+![FGM-FGA-FG3M-FG3A](https://github.com/andychn10/NBA-Data-Project/assets/137304001/2e351372-4be5-4f43-8f97-e0edc17c054b)
+
+![AST-TOV](https://github.com/andychn10/NBA-Data-Project/assets/137304001/2f7ae524-4edf-4f8a-a7a9-55ce3914bf96)
+
+
