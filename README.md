@@ -31,10 +31,17 @@ We see that in the playoffs the percentage of players scoring 20+ points per gam
 
 # How has the game changed over the past 10 years?
 ## Analyzing Statistics Per 48 Minutes For A Given Team
-![PTS (1)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/1eb7d13e-1255-4815-bf7d-d142d16d7cd1)
 
-![FGM-FGA-FG3M-FG3A](https://github.com/andychn10/NBA-Data-Project/assets/137304001/2e351372-4be5-4f43-8f97-e0edc17c054b)
+![Pace, FGA, AST, AST-TOV](https://github.com/andychn10/NBA-Data-Project/assets/137304001/fb2bf51d-07ca-478d-b3e0-c245558fd7c7)
 
-![AST-TOV](https://github.com/andychn10/NBA-Data-Project/assets/137304001/2f7ae524-4edf-4f8a-a7a9-55ce3914bf96)
+Analyzing the trends from the past 10 years in the NBA, one of the most prominent changes is the increase in the pace of the game. The biggest indicator of this shift is the significant increase in possessions and field goals attempted (FGA). As teams play with a higher pace they do not utilize the full 24 second shot-clock instead, opting for quicker scoring opportunities resulting in more frequent shot attempts and changes in possession.
 
+Another statistic that contributes to the pace of the game is assists, from 2012 to 2022 there is an increase of 3.2 assists per 48 minutes. Assists can be an indication of higher pace as teams can get easier scoring opportunities in transition and on fast breaks, allowing for more opportunities for assists. A supporting graphic for this argument is the assists to turnover ratio, there is a drastic upward trend in this metric from 2012 to 2022 indicating fewer turnovers and greater assists per 48 minutes. This supports the idea of teams getting easier scoring opportunities in transition allow for more assists and less turnovers.
+
+![3PM, 3PA, 3PA%](https://github.com/andychn10/NBA-Data-Project/assets/137304001/f4bdfe95-49e8-4c32-a5ae-59b16b6706f8)
+
+
+![TRU%, PT-FGA, 3PM-FGM](https://github.com/andychn10/NBA-Data-Project/assets/137304001/24a84df8-81c2-4a60-9a7d-48b817c02d62)
+
+![REB,STL,BLK](https://github.com/andychn10/NBA-Data-Project/assets/137304001/0334ed8b-96d9-4c16-86be-092f3e057817)
 
