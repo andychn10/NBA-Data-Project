@@ -16,7 +16,6 @@ Negative correlations:
 ## How Are Minutes Distributed?
 ![newplot (3) (1) (1)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/d0d5c85d-6f93-4b28-a3fe-efcabd6db64b)
 
-
 Taking a glance at the minutes distribution in the NBA, we see that in the regular season there is more even minutes distribution as teams are more inclined to try out different lineups and various combinations of players in search of wins. 
 
 While both graphs are right-skewed, it is far more extreme in the playoffs as teams rely more on starpower and results-proven lineups. This can be attributed to a less evenly distributed graph in the playoffs and an increase in the percentage of players with less than 100 minutes played.
@@ -39,6 +38,10 @@ Analyzing the trends from the past 10 years in the NBA, one of the most prominen
 Another statistic that contributes to the pace of the game is assists, from 2012 to 2022 there is an increase of 3.2 assists per 48 minutes. Assists can be an indication of higher pace as teams can get easier scoring opportunities in transition and on fast breaks, allowing for more opportunities for assists. A supporting graphic for this argument is the assists to turnover ratio, there is a drastic upward trend in this metric from 2012 to 2022 indicating fewer turnovers and greater assists per 48 minutes. This supports the idea of teams getting easier scoring opportunities in transition allow for more assists and less turnovers.
 
 ![3PM, 3PA, 3PA%](https://github.com/andychn10/NBA-Data-Project/assets/137304001/f4bdfe95-49e8-4c32-a5ae-59b16b6706f8)
+
+The 3-point shot in the NBA has also transformed the game drastically. Over the span of 10 years the number of 3-point field goals attempted and made have skyrocketed. Back in 2012 NBA teams will take an average of 20 3-point shot attempts per game, nowadays it is not uncommon to see star players attempt 10 to 15 3-point shots alone with teams averaging about 34 3-point shot attempts in a game.
+
+All three graphs show a rising trend over the years, with the third one specifically illustrating the proportion of attempted 3-point shots out of all field goals in a single game. The third graphic is the most telling statistic of how the 3-point shot has taken over the game of basketball. Where a majority of scoring used to come from 2-point field goals, current NBA teams depend on 3-point field goals to make up majority of their scoring, attempting at least 40% of their total shots taken.
 
 
 ![TRU%, PT-FGA, 3PM-FGM](https://github.com/andychn10/NBA-Data-Project/assets/137304001/24a84df8-81c2-4a60-9a7d-48b817c02d62)
