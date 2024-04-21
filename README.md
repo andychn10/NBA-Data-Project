@@ -1,55 +1,60 @@
 # NBA Data Project
 ## Overview
 ![newplot (2)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/5f5f51a7-a1b9-40fd-bc44-befc5b7a5576)
-Before diving into any analytical studies of our database it is a great idea to get a general understanding of the correlatioon of statistical categories in the NBA.
+Before delving into any analytical studies of our database, it's essential to gain a general understanding of the correlation among statistical categories in the NBA.
 
-We can observe a few positive correlations within our dataset:
-- As the number of field goals made (FGM) goes up, the number of field goals attempted (FGA) goes up as well.
-- As the number of FGM increase, the number of points scored (PTS) increases.
-- Number of blocks increase, the number of rebounds increase as well. Normally the bigger players will be able to get blocks (BLK) and rebound (REB) the ball during the same possession.
+We can identify several positive correlations within our dataset:
 
-Negative correlations:
-- As the number of 3 point field goals made (3PTM) increase, the number of offensive rebounds (OREB) decrease - Generally, the players that are shooting and making 3 point shots are often smaller players or guards that do not grab many offensive rebounds.
-- As the percentage of 3 point field goal attempts (3PTA) increase, the overall field goal percentage (FG%) decreases - We can interpret this as such: since the 3 point shot is further away it has a lower chance of going in, thus decreasing the overall field goal percentage.
-- As the number of personal fouls (PF) increase, the number of minutes (MIN) played will decrease. Each player can only commit 6 fouls per game before they are fouled out, the more fouls they commit the less minutes they will play.
+- An increase in the number of field goals made (FGM) is accompanied by a rise in the number of field goals attempted (FGA).
+- As the number of FGM increases, so does the number of points scored (PTS).
+- An increase in the number of blocks (BLK) correlates with a rise in rebounds (REB). Typically, larger players are capable of both blocking shots and securing rebounds during the same possession.
+
+On the other hand, negative correlations are observed:
+
+- With an increase in the number of 3-point field goals made (3PTM), there's a decrease in offensive rebounds (OREB). Generally, players who excel at shooting and making 3-pointers are often smaller guards who don't frequently secure offensive rebounds.
+- As the percentage of 3-point field goal attempts (3PTA) rises, the overall field goal percentage (FG%) decreases. This can be interpreted as the 3-point shot having a lower success rate due to its distance, thereby reducing the overall field goal percentage.
+- An increase in the number of personal fouls (PF) leads to a decrease in minutes played (MIN). Each player can only commit six fouls per game before being fouled out, so the more fouls they commit, the fewer minutes they will play.
 
 ## How Are Minutes Distributed?
 ![newplot (3) (1) (1)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/d0d5c85d-6f93-4b28-a3fe-efcabd6db64b)
 
-Taking a glance at the minutes distribution in the NBA, we see that in the regular season there is more even minutes distribution as teams are more inclined to try out different lineups and various combinations of players in search of wins. 
+Taking a glance at the minutes distribution in the NBA, we notice that during the regular season, there's a more even distribution of minutes. Teams are inclined to experiment with different lineups and player combinations in pursuit of victories.
 
-While both graphs are right-skewed, it is far more extreme in the playoffs as teams rely more on starpower and results-proven lineups. This can be attributed to a less evenly distributed graph in the playoffs and an increase in the percentage of players with less than 100 minutes played.
+While both graphs exhibit right-skewed distributions, the skewness is more pronounced during the playoffs. Teams tend to rely heavily on star players and proven lineups, leading to a less evenly distributed graph and a higher percentage of players with fewer than 100 minutes played.
 
-These observation can be clearly anlazyed in the third graphic, converting the data output to minutes per 48 minutes instead of total minutes played and overlapping the regular season minutes distribution to the playoffs minutes distribution. We can clearly see a significant increase in the percentage of players that play upwards of 35 minutes in the playoffs compare to the regular season.
+These observations are clearly illustrated in the third graphic, where the data output is converted to minutes per 48 minutes instead of total minutes played. By overlaying the regular season minutes distribution with the playoffs minutes distribution, we can discern a significant increase in the percentage of players logging upwards of 35 minutes during the playoffs compared to the regular season.
 
 ## Points Distribution
 ![newplot (6)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/89cdf040-87a6-4bb0-b09b-047cff6d1a2a)
-Looking at the graph above, we can observe an extermely right-skewed histogram, this indicates that over the past 10 years the NBA is still very reliant on their star players to produce large scoring outputs. This argument is even more extreme in the playoffs as we see the orange histogram overlap and extend past the blue histogram (Regular Season).
+Examining the graph above, we notice an extremely right-skewed histogram, suggesting that over the past decade, the NBA has maintained a heavy reliance on its star players to generate high scoring outputs. This trend becomes even more pronounced during the playoffs, as evidenced by the orange histogram overlapping and extending beyond the blue histogram representing the regular season.
 
-We see that in the playoffs the percentage of players scoring 20+ points per game increases significantly compare to the regular season, as well we see that there are a greater percentage of players that are scoring 0-2 points per game. This indicates a tighter rotation among NBA teams in the playoffs as they rely more on key players to provide scoring for their respective teams.
+During the playoffs, there's a notable increase in the percentage of players averaging 20 or more points per game compared to the regular season. Additionally, there's a greater proportion of players scoring between 0 and 2 points per game. These findings point towards a tighter rotation among NBA teams in the playoffs, as they lean more heavily on key players to provide scoring for their respective teams.
 
 # How has the game changed over the past 10 years?
 ## Analyzing Statistics Per 48 Minutes For A Given Team
 
 ![Pace, FGA, AST, AST-TOV](https://github.com/andychn10/NBA-Data-Project/assets/137304001/fb2bf51d-07ca-478d-b3e0-c245558fd7c7)
 
-Analyzing the trends from the past 10 years in the NBA, one of the most prominent changes is the increase in the pace of the game. The biggest indicator of this shift is the significant increase in possessions and field goals attempted (FGA). As teams play with a higher pace they do not utilize the full 24 second shot-clock instead, opting for quicker scoring opportunities resulting in more frequent shot attempts and changes in possession.
+Analyzing the trends of the past decade in the NBA, one of the most notable changes is the acceleration of the game's pace. A key indicator of this evolution is the substantial increase in possessions and field goals attempted (FGA). As teams adopt a faster tempo, they often forego utilizing the full 24-second shot clock, instead favoring quicker scoring opportunities, which results in more frequent shot attempts and turnovers.
 
-Another statistic that contributes to the pace of the game is assists, from 2012 to 2022 there is an increase of 3.2 assists per 48 minutes. Assists can be an indication of higher pace as teams can get easier scoring opportunities in transition and on fast breaks, allowing for more opportunities for assists. A supporting graphic for this argument is the assists to turnover ratio, there is a drastic upward trend in this metric from 2012 to 2022 indicating fewer turnovers and greater assists per 48 minutes. This supports the idea of teams getting easier scoring opportunities in transition allow for more assists and less turnovers.
+Another significant factor contributing to the increased pace is assists. Between 2012 and 2022, there was a notable uptick of 3.2 assists per 48 minutes. Assists serve as a barometer for the pace of play since they indicate easier scoring opportunities in transition and fast breaks, leading to more assist opportunities. Supporting this argument is the assists-to-turnover ratio, which shows a stark upward trajectory during the same period. This trend suggests fewer turnovers and more assists per 48 minutes, aligning with the notion of teams capitalizing on transition opportunities for easier scoring chances and fewer turnovers.
 
 ![3PM, 3PA, 3PA%](https://github.com/andychn10/NBA-Data-Project/assets/137304001/f4bdfe95-49e8-4c32-a5ae-59b16b6706f8)
 
-The 3-point shot in the NBA has also transformed the game drastically. Over the span of 10 years the number of 3-point field goals attempted and made have skyrocketed. Back in 2012 NBA teams will take an average of 20 3-point shot attempts per game, nowadays it is not uncommon to see star players attempt 10 to 15 3-point shots alone with teams averaging about 34 3-point shot attempts in a game.
+The 3-point shot has undergone a dramatic transformation in the NBA, profoundly altering the game. Over the past decade, both the number of attempted and made 3-point field goals have surged. In 2012, NBA teams averaged around 20 attempts per game, whereas today, it's not uncommon for star players alone to attempt 10 to 15 3-point shots, with teams collectively averaging about 34 attempts per game.
 
-All three graphs show a rising trend over the years, with the third one specifically illustrating the proportion of attempted 3-point shots out of all field goals in a single game. The third graphic is the most telling statistic of how the 3-point shot has taken over the game of basketball. Where a majority of scoring used to come from 2-point field goals, current NBA teams depend on 3-point field goals to make up majority of their scoring, attempting at least 40% of their total shots taken.
+All three graphs exhibit a consistent upward trend over the years, with the third graph specifically highlighting the proportion of attempted 3-point shots relative to all field goals in a single game. This particular graphic serves as a compelling indicator of how the 
+3-point shot has reshaped basketball. Whereas scoring predominantly stemmed from 2-point field goals in the past, current NBA teams heavily rely on 3-pointers to generate the majority of their scoring, often accounting for at least 40% of their total shot attempts.
 
 ![TRU%, PT-FGA, 3PM-FGM](https://github.com/andychn10/NBA-Data-Project/assets/137304001/24a84df8-81c2-4a60-9a7d-48b817c02d62)
 
-Lastly, over the past 10 years the amount of talent and scoring in the NBA has progressed significantly as well. Players are far more efficient scorers and are able to score at a higher volume as well. The true shooting metric is a basketball statistic that provides a more comprehensive measure of shooting efficiency by accounting for field goals, free throws, and three-point shots. It calculates the player's shooting efficiency while considering the varying point values of different shot types. The formula for true shooting percentage is:
+Finally, over the past decade, the level of talent and scoring prowess in the NBA has experienced substantial advancement. Players have become notably more efficient scorers, capable of producing higher scoring outputs.
+
+The true shooting metric serves as a comprehensive basketball statistic that offers a more nuanced measure of shooting efficiency. It takes into account field goals, free throws, and three-point shots, thereby providing a holistic assessment of a player's scoring proficiency. The formula for true shooting percentage is as follows:
 
 ![True Shooting Formula](https://github.com/andychn10/NBA-Data-Project/assets/137304001/1d3f8990-aabf-4f3d-991f-d3b44bf7a2c0)
 
 It is considered a more accurate representation of a player's scoring efficiency compared to traditional field goal percentage because it incorporates the value of three-point shots and free throws.
 
-Examining the points per field goal attempts metric, there is an upward trend indicating players scoring more efficiently and making more 3-point field goals which in theory is a more difficult shot opposed to the 2-point field goals which are closer to the basket. This argument can be supported with the third graphic, showing an increase in 3-point field goals made per field goals made. 
+When analyzing the points per field goal attempts metric, we observe an upward trend, indicating that players are scoring more efficiently and making more three-point field goals. This is noteworthy considering that three-point shots are theoretically more challenging compared to two-point field goals due to their distance from the basket. This assertion finds support in the third graphic, which illustrates an increase in the ratio of three-point field goals made to total field goals made.
 
