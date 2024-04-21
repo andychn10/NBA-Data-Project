@@ -43,8 +43,13 @@ The 3-point shot in the NBA has also transformed the game drastically. Over the 
 
 All three graphs show a rising trend over the years, with the third one specifically illustrating the proportion of attempted 3-point shots out of all field goals in a single game. The third graphic is the most telling statistic of how the 3-point shot has taken over the game of basketball. Where a majority of scoring used to come from 2-point field goals, current NBA teams depend on 3-point field goals to make up majority of their scoring, attempting at least 40% of their total shots taken.
 
-
 ![TRU%, PT-FGA, 3PM-FGM](https://github.com/andychn10/NBA-Data-Project/assets/137304001/24a84df8-81c2-4a60-9a7d-48b817c02d62)
 
-![REB,STL,BLK](https://github.com/andychn10/NBA-Data-Project/assets/137304001/0334ed8b-96d9-4c16-86be-092f3e057817)
+Lastly, over the past 10 years the amount of talent and scoring in the NBA has progressed significantly as well. Players are far more efficient scorers and are able to score at a higher volume as well. The true shooting metric is a basketball statistic that provides a more comprehensive measure of shooting efficiency by accounting for field goals, free throws, and three-point shots. It calculates the player's shooting efficiency while considering the varying point values of different shot types. The formula for true shooting percentage is:
+
+![True Shooting Formula](https://github.com/andychn10/NBA-Data-Project/assets/137304001/1d3f8990-aabf-4f3d-991f-d3b44bf7a2c0)
+
+It is considered a more accurate representation of a player's scoring efficiency compared to traditional field goal percentage because it incorporates the value of three-point shots and free throws.
+
+Examining the points per field goal attempts metric, there is an upward trend indicating players scoring more efficiently and making more 3-point field goals which in theory is a more difficult shot opposed to the 2-point field goals which are closer to the basket. This argument can be supported with the third graphic, showing an increase in 3-point field goals made per field goals made. 
 
