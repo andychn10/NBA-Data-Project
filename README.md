@@ -1,4 +1,4 @@
-# NBA Data Project
+# Decade in Review: Exploring NBA Trends and Performance (2010-2020)
 ## Overview
 ![newplot (2)](https://github.com/andychn10/NBA-Data-Project/assets/137304001/5f5f51a7-a1b9-40fd-bc44-befc5b7a5576)
 Before delving into any analytical studies of our database, it's essential to gain a general understanding of the correlation among statistical categories in the NBA.
